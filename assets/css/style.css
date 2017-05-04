@@ -1,0 +1,35 @@
+footer {
+  padding: 30px 0;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+#theme-heading{
+  margin-left: 25%;
+}
+
+.item{
+  float:left;
+  margin-right: 10px;
+}
+
+.panel-heading{
+  background: url('../images/kids.jpg');
+  background-size: cover;
+}
+
+/*have to set height otherwise, the overflow-y: auto to keep the heading stay won't work*/
+.panel-body{
+  height: 500px;
+  overflow-y: auto;
+}
+
+/*make space between buttons*/
+button{
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
